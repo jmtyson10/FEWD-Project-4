@@ -1,0 +1,58 @@
+Step 1:
+    ✔ Create folders @done(22-11-04 10:19)
+        ✔ scss @done(22-11-04 10:19)
+        ✔ css @done(22-11-04 10:19)
+    ✔ Create Sub-folders in scss folder @done(22-11-04 10:19)
+        ✔ base @done(22-11-04 10:19)
+        ✔ component @done(22-11-04 10:19)
+        ✔ utilities @done(22-11-04 10:19)
+Step 2:
+    ✔ change "normalize.css" to a sass partial and move it to base folder @done(22-11-04 10:19)
+    ✔ create index fil in the base folder @done(22-11-04 10:19)
+    ✔ create "typography partial and save it to base @done(22-11-04 10:19)
+    ✔ in component file create the following sass partial files @done(22-11-04 10:19)
+        ✔ navigation @done(22-11-04 10:19)
+        ✔ grid @done(22-11-04 10:19)
+        ✔ form @done(22-11-04 10:19)
+        ✔ button @done(22-11-04 10:19)
+        ✔ index @done(22-11-04 10:19)
+    ✔ in utilities file create the following sass partial files @done(22-11-04 10:19)
+        ✔ variables @done(22-11-04 10:19)
+        ✔ mixins @done(22-11-04 10:19)
+        ✔ index @done(22-11-04 10:19)
+    ✔ Create "styles.scss" in the scss folder @done(22-11-04 10:19)
+        ✔ import all index partials into the "styles.scss" file @done(22-11-04 10:19)
+Step 3:
+    ✔ Enable "watch" for changes and proper "style.css" and "style.css.map" file generation @done(22-11-04 10:19)
+Step 4:
+    ☐ Create at lease 5 color variables
+    ☐ create a variable that stores the size of the media query breakpoint
+Step 5:
+    ☐ add styles to typography partial
+        ☐ look for:
+            ☐ font-family
+            ☐ size
+            ☐ weight
+        ☐ pay attention to tags:
+            ☐ a
+            ☐ h1
+            ☐ body
+            ☐ * (universal selector)
+Step 6:
+    ☐ add styles to components partial
+        ☐ Transfer remaining CSS into their respective components. For example, any class selectors that begin with grid, column, or rows could go in the grid component.
+        ☐ update any styles that use color values with sass variables you created in the previous step
+Extra Credit:
+    ☐ Use a nested selector structure for at least one component
+        ☐ create a base selector for a group of related styles.
+        ☐ Inside of that selector, use the Sass parent selector: & to append a child class selector to the base. An example would be in the navigation component use .nav as the base selector, annd nest .nav-link inside of it.
+    ☐ Use built in Sass function to add hover effect.
+        ☐ created a hover effect for buttons
+        ☐ for the effect, lighten the button's background color by 15%
+        ☐ add a css transition so that the color change fades in.
+    ☐ Add dark mode
+    ☐ Add favicon
+    ☐ README file
+Step 7:
+    ☐ compare project to "How you will be graded" rubric
+    ☐ post in #review-my-project channel
