@@ -25,7 +25,7 @@ Step 2:
 Step 3:
     ✔ Enable "watch" for changes and proper "style.css" and "style.css.map" file generation @done(22-11-04 10:19)
 Step 4:
-    ☐ Create at lease 5 color variables
+    ✔ Create at lease 5 color variables @done(22-11-07 11:03)
     ☐ create a variable that stores the size of the media query breakpoint
 Step 5:
     ☐ add styles to typography partial
@@ -34,13 +34,13 @@ Step 5:
             ☐ size
             ☐ weight
         ☐ pay attention to tags:
-            ☐ a
+            ✔ a @done(22-11-07 11:06)
             ☐ h1
             ☐ body
-            ☐ * (universal selector)
+            ✔ * (universal selector) @done(22-11-07 11:06)
 Step 6:
     ☐ add styles to components partial
-        ☐ Transfer remaining CSS into their respective components. For example, any class selectors that begin with grid, column, or rows could go in the grid component.
+        ✔ Transfer remaining CSS into their respective components. For example, any class selectors that begin with grid, column, or rows could go in the grid component. @done(22-11-07 11:04)
         ☐ update any styles that use color values with sass variables you created in the previous step
 Extra Credit:
     ☐ Use a nested selector structure for at least one component
@@ -56,3 +56,4 @@ Extra Credit:
 Step 7:
     ☐ compare project to "How you will be graded" rubric
     ☐ post in #review-my-project channel
+    ☐ Submit for grade
