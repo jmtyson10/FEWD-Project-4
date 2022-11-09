@@ -14,22 +14,31 @@
     border-radius: 5px;
 }
 
-.default {
-    background-color: $btn-default;
+@each $btn-key, $btn-value in $btn-map {
+    .#{$btn-key}{
+        background-color: $btn-value;
+        &:hover{
+            background-color: lighten($btn-value, 15%);
+            transition: 0.3s ease-in;
+        }
+    }
 }
+// .default {
+//     background-color: $btn-default;
+// }
 
-.error {
-    background-color: $btn-error;
-}
+// .error {
+//     background-color: $btn-error;
+// }
 
-.info {
-    background-color: $btn-info;
-}
+// .info {
+//     background-color: $btn-info;
+// }
 
-.success {
-    background-color: $btn-success;
-}
+// .success {
+//     background-color: $btn-success;
+// }
 
-.warning {
-    background-color: $btn-warning;
-}
+// .warning {
+//     background-color: $btn-warning;
+// }
