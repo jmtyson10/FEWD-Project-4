@@ -18,11 +18,11 @@ $theme-12: #80e8d1;
 
 
 $btn-map: (
-    'btn-default': #51ddfc,
-    'btn-error': #e4757a,
-    'btn-info': #927bc1,
-    'btn-success': #63cc82,
-    'btn-warning': #fd7856);
+    'default': #51ddfc,
+    'error': #e4757a,
+    'info': #927bc1,
+    'success': #63cc82,
+    'warning': #fd7856);
 
 // Media Query Breakpoints
 $breakpoint: 768px;

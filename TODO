@@ -54,4 +54,7 @@ Extra Credit:
 Step 7:
     ✔ compare project to "How you will be graded" rubric @done(22-11-14 20:43)
     ☐ post in #review-my-project channel
+        ✔ Image elements need to be vertically centered @done(22-11-15 10:16)
+        ✔ rectangle image in "images" needs a thick white border and a thin grey border @done(22-11-15 10:16)
+        ☐ buttons need their assigned colors. (look at the btn-map and associated classes)
     ☐ Submit for grade
